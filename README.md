@@ -1,6 +1,8 @@
-# Axon Workbench
+# Axon Governance Workbench
 
-A local, single-operator workbench for Informatica Axon Data Governance. Search the API catalog, fill in parameters, run a request and inspect its response. The included sample uses synthetic banking data. The live connector sends requests to your Axon server from the machine running Workbench.
+An on-premises web app for Informatica Axon Data Governance. Discover published REST APIs, search glossary terms, inspect data quality rules, and review changes before sending them to Axon.
+
+The workbench runs on a single operator’s workstation and connects directly to the configured Axon server. The bundled sample lets you try the same interface with synthetic banking data.
 
 ## Interface
 
