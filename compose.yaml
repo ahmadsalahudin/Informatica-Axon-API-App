@@ -1,0 +1,12 @@
+services:
+  workbench:
+    build: .
+    image: axon-workbench:local
+    ports:
+      - "127.0.0.1:8765:8765"
+    read_only: true
+    cap_drop: [ALL]
+    security_opt:
+      - no-new-privileges:true
+    environment:
+      AXON_BASE_URL: ${AXON_BASE_URL:-}

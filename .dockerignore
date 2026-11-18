@@ -1,0 +1,7 @@
+*
+!app.py
+!connector.py
+!demo.py
+!catalog.py
+!web/
+!web/**
